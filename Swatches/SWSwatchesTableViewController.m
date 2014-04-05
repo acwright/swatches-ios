@@ -32,8 +32,10 @@ static NSString * const kAppURLString = @"http://obscure-spire-1682.herokuapp.co
 {
     [super viewDidLoad];
     
-    self.title = NSLocalizedString(@"Swatches", nil);
-    
+    [self refresh:self];
+}
+
+- (IBAction)refresh:(id)sender {
     NSURL *url = [NSURL URLWithString:[kAppURLString stringByAppendingPathComponent:@"swatches"]];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     

@@ -10,4 +10,6 @@
 
 @interface SWSwatchesTableViewController : UITableViewController
 
+- (IBAction)refresh:(id)sender;
+
 @end

@@ -20,6 +20,7 @@
 		45C886E818F04BDF000911F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45C886E618F04BDF000911F2 /* InfoPlist.strings */; };
 		45C886EA18F04BDF000911F2 /* SwatchesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C886E918F04BDF000911F2 /* SwatchesTests.m */; };
 		45F54D5E18F04DC400455B8E /* SWSwatchesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F54D5D18F04DC400455B8E /* SWSwatchesTableViewController.m */; };
+		45F54DA418F055C900455B8E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F54DA318F055C900455B8E /* Storyboard.storyboard */; };
 		F16121FAF2714509AEB4B33A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 588ED3E4114F4DEAB026F84D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		45C886E918F04BDF000911F2 /* SwatchesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwatchesTests.m; sourceTree = "<group>"; };
 		45F54D5C18F04DC400455B8E /* SWSwatchesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSwatchesTableViewController.h; sourceTree = "<group>"; };
 		45F54D5D18F04DC400455B8E /* SWSwatchesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSwatchesTableViewController.m; sourceTree = "<group>"; };
+		45F54DA318F055C900455B8E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		588ED3E4114F4DEAB026F84D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5FD125D4DC434182E6749C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +122,7 @@
 				45C886D418F04BDF000911F2 /* SWAppDelegate.m */,
 				45F54D5C18F04DC400455B8E /* SWSwatchesTableViewController.h */,
 				45F54D5D18F04DC400455B8E /* SWSwatchesTableViewController.m */,
+				45F54DA318F055C900455B8E /* Storyboard.storyboard */,
 				45C886D618F04BDF000911F2 /* Images.xcassets */,
 				45C886CB18F04BDF000911F2 /* Supporting Files */,
 			);
@@ -235,6 +238,7 @@
 			files = (
 				45C886CF18F04BDF000911F2 /* InfoPlist.strings in Resources */,
 				45C886D718F04BDF000911F2 /* Images.xcassets in Resources */,
+				45F54DA418F055C900455B8E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
